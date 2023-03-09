@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Validator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Great+Vibes&family=Kanit:wght@300&family=Lato:wght@400;700&family=Lobster&family=Pacifico&family=Poppins&family=Roboto&display=swap');
+      </style>
+  </head>
+  <body>
+    <div class="logo">Password Validator</div>
+    <main class="main-section">
+      <div class="input-list">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Password" />
+        <label for="confirmpassword">Confirm Password</label>
+        <input
+          type="password"
+          name="confirmpassword" id="confirmpassword"
+          placeholder="Confirm Password"
+        />
+        <p id="message"></p>
+        <button type="submit" name="submit" value="Login" onclick="checkPassword()" >Login</button>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

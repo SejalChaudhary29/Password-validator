@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  width: 100%;
+  height: 99vh;
+  /* background:linear-gradient(#FF9F4A, #FF3C83); */
+  overflow: hidden;
+  background-image: url(./beams-home@95.jpg);
+  background-size: cover;
+ 
+
+
+
+}
+.logo {
+  color:black;
+  font-size: 22px;
+  margin: 12px;
+  letter-spacing: 5px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 600;
+  font-size: 28px;
+
+
+}
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px;
+}
+
+.input-list {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 32vh;
+  padding: 92px 12px;
+  margin-top: 16px;
+  border: 1px solid #eaeaef;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #bdb4b4;
+  outline: none;
+}
+input {
+  width: 250px;
+  padding: 3px;
+  margin: 12px 0px;
+  border: 1px solid #808080;
+}
+::placeholder {
+  font-size: 15px;
+ 
+  border-color: red;
+} 
+
+button {
+  width: 120px;
+  padding: 7px 12px;
+  margin-top: 22px;
+  background:linear-gradient(to left,#253898, #5737D6);
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  margin-left: 80px;
+  cursor: pointer;
+  color: #fff;
+}
+button:hover{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background:linear-gradient(to left,#5e6db5, #361e9a);
+    font-size: 14px;
+}
